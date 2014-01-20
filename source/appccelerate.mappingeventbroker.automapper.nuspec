@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Appccelerate.MappingEventBroker.AutoMapper</id>
+    <version>0.0.0</version>
+    <title>Appccelerate.MappingEventBroker.AutoMapper</title>
+    <authors>Appccelerate team</authors>
+    <owners>Appccelerate team</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/appccelerate/mappingeventbroker</projectUrl>
+    <iconUrl>https://github.com/appccelerate/appccelerate/raw/master/docs/nuget.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Event broker extension for mapping event arguments from one type to another using AutoMapper.</summary>
+    <description>
+      Event broker extension for mapping event arguments from one type to another using AutoMapper.
+    </description>
+    <releaseNotes>
+        2.1: built using new build infrastructure (no functional changes)
+        2: targets now .Net 4.5
+    </releaseNotes>
+    <copyright>Copyright 2012-2014</copyright>
+    <tags>Appccelerate event-broker mapping AutoMapper</tags>
+  <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net45" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="Appccelerate.Fundamentals" version="[2.0,3.0)" />
+      <dependency id="Appccelerate.EventBroker" version="[3.1,4.0)"/>
+      <dependency id="Appccelerate.MappingEventBroker" version="[2.1,3.0)"/>
+      <dependency id="AutoMapper" version="[3.0,4.0)"/>
+    </dependencies>	
+  </metadata>
+  <files>
+    <file src="Appccelerate.MappingEventBroker.AutoMapper\bin\Release\Appccelerate.MappingEventBroker.AutoMapper.dll" target="lib\net45" />
+    <file src="Appccelerate.MappingEventBroker.AutoMapper\bin\Release\Appccelerate.MappingEventBroker.AutoMapper.pdb" target="lib\net45" />
+    <file src="Appccelerate.MappingEventBroker.AutoMapper\bin\Release\Appccelerate.MappingEventBroker.AutoMapper.xml" target="lib\net45" />
+    <file src="Appccelerate.MappingEventBroker.AutoMapper\**\*.cs" target="src" />
+  </files>  
+</package>
