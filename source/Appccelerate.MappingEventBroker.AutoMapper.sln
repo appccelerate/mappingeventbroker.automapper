@@ -1,13 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{78E09A72-FA0C-400F-B8C4-1906774E5EEF}"
-	ProjectSection(SolutionItems) = preProject
-		appccelerate.mappingeventbroker.automapper.nuspec = appccelerate.mappingeventbroker.automapper.nuspec
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appccelerate.MappingEventBroker.AutoMapper", "Appccelerate.MappingEventBroker.AutoMapper\Appccelerate.MappingEventBroker.AutoMapper.csproj", "{CA8E5F15-DE89-428E-9382-6DD78F4950C7}"
 EndProject
 Global
